@@ -14,3 +14,14 @@ class Person:
 # 2) 인스턴스 생성
 p1 = Person()
 p1.print()
+p2 = Person()
+p2.name = "현성환"
+p2.print()
+
+
+# 런타임(코드가 실행될 때) 변수를 추가할 수 있는 동적 형식의 언어
+
+Person.title = "new title"
+print(p1.title)
+print(p2.title)
+print(Person.title)
