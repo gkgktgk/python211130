@@ -8,5 +8,6 @@ class MyClass:
         print("Instance is deleted!")
 
 d = MyClass(5)
-del d 
+#del d 
 
+print("코드 실행 종료")
